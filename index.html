@@ -1,0 +1,140 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <header class="flex justify-between items-center w-screen h-[100px] px-10 flex-col md:flex-row max-md:h-auto max-md:py-4 max-md:px-4 max-md:gap-4 max-md:w-full">
+
+        <div>
+            <h5>Astro<span>ship</span></h5>
+        </div>
+
+        <nav>
+            <ul class="flex gap-x-10 max-md:flex-wrap max-md:justify-center max-md:gap-x-4 max-md:gap-y-2">
+                <li>Features</li>
+                <li>Pricing</li>
+                <li>About</li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+
+        <div class="flex gap-x-5 items-center justify-center max-md:gap-x-3">
+            <a>Log In</a>
+            <button class="inline-block w-[100px] h-[50px] bg-black text-white rounded-md">Sing Up</button>
+        </div>
+    </header>
+
+    <section class="flex justify-between items-center w-screen flex-row h-[500px] px-10 max-md:flex-col max-md:h-auto max-md:w-full max-md:px-4 max-md:py-8 max-md:gap-8">
+
+        <div class="py-40px w-[50%] max-md:w-full max-md:py-0">
+            <h1 class="text-[60px] font-bold max-md:text-[35px]">Marketing website done with Astro</h1>
+
+            <article class="text-[20px] text-gray-600 max-md:text-[16px]">
+                Astroship is a starter template for startups, marketing websites & landing pages. Built with Astro.build and TailwindCSS. You can quickly create any website with this starter.
+            </article>
+
+            <div class="flex gap-x-5 m-4 max-md:flex-wrap max-md:gap-3 max-md:mx-0">
+                <button class="inline-block w-[200px] h-[50px] bg-black text-white rounded-md max-md:w-full">Download for free</button>
+                <button class="inline-block w-[200px] h-[50px] border border-black rounded-md max-md:w-full">GitHup Repo</button>
+            </div>
+        </div>
+
+        <div class="max-md:w-full">
+            <img class="max-md:w-full" src="https://preview.themewagon.com/astroship/_astro/hero.DlKDY3ml_Z23dT8W.webp">
+        </div>
+    </section>
+
+    <section class="flex flex-col justify-center m-[40px] gap-[60px] px-[20px] w-screen max-md:w-full max-md:m-0 max-md:px-4 max-md:gap-10">
+
+        <div>
+            <h1 class="text-[40px] font-bold max-md:text-[28px]">Everything you need to start a website</h1>
+            <p class="text-[20px] text-gray-600 max-md:text-[16px]">
+                Astro comes batteries included. It takes the best parts of state-of-the-art tools and adds its own innovations.
+            </p>
+        </div>
+
+        <div class="all-card grid grid-cols-3 grid-rows-2 gap-[10px] max-md:grid-cols-1 max-md:grid-rows-none md:max-lg:grid-cols-2">
+
+            <div class="card w-[300px] h-200px flex gap-[10px] justify-center max-md:w-full max-md:h-auto">
+                <div><i class="fa-solid fa-user"></i></div>
+                <div>
+                    <h3 class="text-[20px] font-bold max-md:text-[18px]">Bring Your Own Framework</h3>
+                    <p class="text-[17px] text-gray-600 max-md:text-[15px]">Build your site using React, Svelte, Vue, Preact, web components, or just plain ol' HTML + JavaScript.</p>
+                </div>
+            </div>
+
+            <div class="card w-[300px] h-200px flex gap-[10px] justify-center max-md:w-full max-md:h-auto">
+                <div><i class="fa-solid fa-briefcase"></i></div>
+                <div>
+                    <h3 class="text-[20px] font-bold max-md:text-[18px]">100% Static HTML, No JS</h3>
+                    <p class="text-[17px] text-gray-600 max-md:text-[15px]">Astro renders your entire page to static HTML, removing all JavaScript from your final build by default.</p>
+                </div>
+            </div>
+
+            <div class="card w-[300px] h-200px flex gap-[10px] justify-center max-md:w-full max-md:h-auto">
+                <div><i class="fa-regular fa-window-maximize"></i></div>
+                <div>
+                    <h3 class="text-[20px] font-bold max-md:text-[18px]">On-Demand Components</h3>
+                    <p class="text-[17px] text-gray-600 max-md:text-[15px]">Need some JS? Astro can automatically hydrate interactive components when they become visible on the page.</p>
+                </div>
+            </div>
+
+            <div class="card w-[300px] h-200px flex gap-[10px] justify-center max-md:w-full max-md:h-auto">
+                <div><i class="fa-solid fa-database"></i></div>
+                <div>
+                    <h3 class="text-[20px] font-bold max-md:text-[18px]">Broad Integration</h3>
+                    <p class="text-[17px] text-gray-600 max-md:text-[15px]">Astro supports TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and any other npm packages.</p>
+                </div>
+            </div>
+
+            <div class="card w-[300px] h-200px flex gap-[10px] justify-center max-md:w-full max-md:h-auto">
+                <div><i class="fa-solid fa-robot"></i></div>
+                <div>
+                    <h3 class="text-[20px] font-bold max-md:text-[18px]">SEO Enabled</h3>
+                    <p class="text-[17px] text-gray-600 max-md:text-[15px]">Automatic sitemaps, RSS feeds, pagination and collections take the best parts of SEO. It just works!</p>
+                </div>
+            </div>
+
+            <div class="card w-[300px] h-200px flex gap-[10px] justify-center max-md:w-full max-md:h-auto">
+                <div><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div>
+                    <h3 class="text-[20px] font-bold max-md:text-[18px]">Community</h3>
+                    <p class="text-[17px] text-gray-600 max-md:text-[15px]">Astro is an open source project powered by hundreds of contributors making thousands of individual contributions.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="flex flex-col gap-[40px] items-center mt-[50px] justify-center max-md:gap-6 max-md:mt-8">
+            <div>
+                <h6 class="text-[17px] text-gray-600 text-center">Works with your technologies</h6>
+            </div>
+
+            <div class="flex items-center gap-[90PX] text-black max-md:flex-wrap max-md:justify-center max-md:gap-8">
+               
+                
+            </div>
+        </div>
+
+        <div class="flex justify-center flex-col items-center w-[90%] bg-black gap-[20px] h-[300px] m-[40px] rounded-md max-md:w-full max-md:mx-0 max-md:my-4 max-md:h-auto max-md:min-h-[300px] max-md:px-4 max-md:py-8 max-md:text-center">
+            <h1 class="text-[60px] text-white max-md:text-[32px]">Build faster websites.</h1>
+            <p class="text-[25px] text-gray-600 max-md:text-[17px]">Pull content from anywhere and serve it fast with Astro's next-gen island architecture.</p>
+            <button class="inline-block w-[200px] h-[50px] bg-white rounded-md">Get Started</button>
+        </div>
+    </section>
+
+    <footer class="flex justify-center flex-col items-center w-[100%] gap-[20px] h-[200px] max-md:h-auto max-md:px-4 max-md:py-6 max-md:text-center">
+        <p class="text-[20px] text-gray-600 max-md:text-[14px]">Copyright © 2026 Astroship. All rights reserved.</p>
+        <p class="text-[20px] text-gray-600 max-md:text-[14px]">Made by Web3Templates • Distributed by ThemeWagon</p>
+    </footer>
+</body>
+</html>
+
